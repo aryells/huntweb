@@ -16,3 +16,35 @@
     line-height: 24px;
     margin-top: 5px;
 }
+
+.case-info .tags li {
+    display: inline;
+    list-style-type: none;
+    border-radius: 5px;
+    border: 1px solid #ff552f;
+    max-width: max-content;
+    margin-right: 5px;
+    line-height: 24px;
+}
+
+.case-info .actions {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.case-info .actions a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.case-info .actions a:hover {
+    opacity: 0.7;
+}

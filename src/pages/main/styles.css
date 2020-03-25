@@ -64,3 +64,18 @@
 .cases-list .actions button:hover {
     opacity: 0.7;
 }
+
+.cases-list .actions a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: #da552f;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

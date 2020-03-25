@@ -37,6 +37,9 @@ export default class Main extends Component {
     render() {
         return (
             <div className="cases-list">
+                <div className="actions">
+                    <Link to={`/new/case`}>Novo caso</Link>
+                </div>
                 {
                     this.state.cases.map(savedCase => (
                         <article key={savedCase.caseId}>
